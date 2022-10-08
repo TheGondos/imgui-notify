@@ -40,7 +40,7 @@ using duration = std::chrono::duration<double>;
 using steady_clock = std::chrono::steady_clock;
 
 const duration NOTIFY_FADE_IN_OUT_TIME = 0.15s; // Fade in and out duration
-const duration NOTIFY_DEFAULT_DISMISS  = 3.0s;  // Auto dismiss (default, applied only of no data provided in constructors)
+const duration NOTIFY_DEFAULT_DISMISS  = 7.0s;  // Auto dismiss (default, applied only of no data provided in constructors)
 const float NOTIFY_PADDING_X = 20.f;            // Bottom-left X padding
 const float NOTIFY_PADDING_Y = 20.f;            // Bottom-left Y padding
 const float NOTIFY_PADDING_MESSAGE_Y = 10.f;    // Padding Y between each message
